@@ -7,6 +7,6 @@ I used in this project
 4. Material-Ul-Icon
 5. Firebase Google Authentication
 
-### `Host & Deploy - Netlify`
-## There is something wrong with this URL.
-URL --> [https://elastic-boyd-bd7acc.netlify.app/](https://elastic-boyd-bd7acc.netlify.app/)
+### `Host & Deploy - Firebase`
+
+URL --> [https://burj-al-arab-9bc3e.web.app/](https://burj-al-arab-9bc3e.web.app/)
