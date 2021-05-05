@@ -7,6 +7,6 @@ I used in this project
 4. Material-Ul-Icon
 5. Firebase Google Authentication
 
-### `Host Netlify`
+### `Host & Deploy - Netlify`
 
 URL --> []()
