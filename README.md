@@ -9,4 +9,5 @@ I used in this project
 
 ### `Host & Deploy - Netlify`
 
-URL --> []()
+URL --> [https://elastic-boyd-bd7acc.netlify.app/](https://elastic-boyd-bd7acc.netlify.app/)
+## There is something wrong with this URL.
