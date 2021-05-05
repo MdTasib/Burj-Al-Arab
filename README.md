@@ -8,6 +8,5 @@ I used in this project
 5. Firebase Google Authentication
 
 ### `Host & Deploy - Netlify`
-
-URL --> [https://elastic-boyd-bd7acc.netlify.app/](https://elastic-boyd-bd7acc.netlify.app/)
 ## There is something wrong with this URL.
+URL --> [https://elastic-boyd-bd7acc.netlify.app/](https://elastic-boyd-bd7acc.netlify.app/)
