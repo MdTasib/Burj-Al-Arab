@@ -39,7 +39,7 @@ const Login = () => {
     return (
         <div style={{ textAlign: 'center' }}>
             <h2>Welcome Back, Please Login<br />to your account.</h2>
-            <Button onClick={handleGoogleSingIn} variant="contained" color="secondary" startIcon={<MailOutlineIcon />}>
+            <Button onClick={handleGoogleSingIn} variant="outlined" color="secondary" startIcon={<MailOutlineIcon />}>
                 Google Log In
             </Button>
         </div>

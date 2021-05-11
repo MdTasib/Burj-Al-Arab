@@ -76,7 +76,7 @@ export default function Room({ room }) {
         <IconButton aria-label="price">
           <AttachMoneyIcon />: {room.price}
         </IconButton>
-        <Button onClick={() => handleBook(room.bedType)} variant="contained" color="secondary">
+        <Button onClick={() => handleBook(room.bedType)} variant="outlined" color="secondary">
           Book
         </Button>
       </CardActions>
