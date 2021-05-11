@@ -5,6 +5,7 @@ import { Grid } from '@material-ui/core';
 import Button from '@material-ui/core/Button';
 import DateFnsUtils from '@date-io/date-fns';
 import { MuiPickersUtilsProvider, KeyboardDatePicker } from '@material-ui/pickers';
+import Bookings from '../Bookings/Bookings';
 
 const Book = () => {
     const { bedType } = useParams();
@@ -71,6 +72,7 @@ const Book = () => {
                 </Grid>
                 <Button onClick={handleBooking} variant="outlined" color="secondary">Book Now</Button>
             </MuiPickersUtilsProvider>
+            <Bookings />
         </div>
     );
 };
