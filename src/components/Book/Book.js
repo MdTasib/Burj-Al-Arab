@@ -23,11 +23,18 @@ const Book = () => {
     const handleCheckOutDate = (date) => {
         const newDates = { ...selectedDate };
         newDates.checkOut = date;
-        setSelectedDate(date);
+        setSelectedDate(newDates);
     };
 
     const handleBooking = () => {
-
+        const newBooking = { ...loggedInUser, ...selectedDate };
+        fetch('http://localhost:5000/addBooking', {
+            method: 'POST',
+            headers: { 'Content-Type': 'application/json' },
+            body: JSON.stringify(newBooking)
+        })
+            .then(res => res.json())
+            .then(result => console.log(result));
     }
 
     return (
