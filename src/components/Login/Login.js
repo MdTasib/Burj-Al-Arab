@@ -30,12 +30,24 @@ const Login = () => {
                     email,
                 }
                 setLoggedInUser(singInUser);
+                storeIdToken();
                 history.replace(from);
             })
             .catch(error => {
                 console.log(error.message);
             })
     }
+
+    // firebese JWT ID token set in session Storage
+    const storeIdToken = () => {
+        firebase.auth().currentUser.getIdToken(/* forceRefresh */ true)
+            .then((idToken) => {
+                sessionStorage.setItem('token', idToken);
+            }).catch((error) => {
+                console.log(error);
+            });
+    }
+
     return (
         <div style={{ textAlign: 'center' }}>
             <h2>Welcome Back, Please Login<br />to your account.</h2>
