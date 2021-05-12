@@ -1,4 +1,4 @@
-## A Amazing MERN Stack || Full Stack project.
+## An Amazing MERN Stack || Full Stack project.
 
 I used in this project
 
